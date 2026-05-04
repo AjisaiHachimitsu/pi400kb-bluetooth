@@ -85,7 +85,8 @@ target_link_libraries(libusbgx INTERFACE config)
 add_executable(
     pi400kb
     pi400.c
-    gadget-hid.c
+    # gadget-hid.c
+    btferret/btlib.c
 )
 
 target_compile_definitions(pi400kb PRIVATE
