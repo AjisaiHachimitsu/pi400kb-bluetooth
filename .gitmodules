@@ -1,3 +1,6 @@
 [submodule "libusbgx"]
 	path = libusbgx
 	url = https://github.com/linux-usb-gadgets/libusbgx
+[submodule "btferret"]
+	path = btferret
+	url = https://github.com/petzval/btferret.git
